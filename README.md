@@ -3,7 +3,6 @@
 ## 📌 Description
 This is a simple Java program to calculate the **area, perimeter, and volume** of different shapes using:
 - **Abstract class** (`Shape`)
-- **Interface** (`Volume`)
 - **Menu-driven approach**
 - **Simple arrays and input handling**
 
@@ -13,7 +12,6 @@ Shape_Calculator/
 │── README.md          # Documentation
 │── Main.java          # Entry point (Menu-driven program)
 │── Shape.java         # Abstract class with common shape methods
-│── Volume.java        # Interface for volume calculation
 │── Circle.java        # Circle class
 │── Rectangle.java     # Rectangle class
 │── Square.java        # Square class
@@ -28,11 +26,9 @@ Shape_Calculator/
 - `Shape(String shapeName)`: Constructor to store the name of the shape.
 - `calculateArea()`: Abstract method to calculate the area.
 - `calculatePerimeter()`: Abstract method to calculate the perimeter.
-
-### **2️⃣ Volume.java (Interface)**
 - `calculateVolume()`: Abstract method to calculate volume (for 3D shapes).
 
-### **3️⃣ Shapes Implementations**
+### **2️⃣ Shapes Implementations (Extending Shape)**
 
 #### **📌 Circle.java**
 - `calculateArea()`: Computes **π × r²**
@@ -59,7 +55,7 @@ Shape_Calculator/
 - `calculatePerimeter()`: Computes **4 × base**
 - `calculateVolume()`: Computes **(1/3) × base² × height**
 
-### **4️⃣ Main.java (Menu-Driven Program)**
+### **3️⃣ Main.java (Menu-Driven Program)**
 - Displays menu to select shape.
 - Calls appropriate class and methods.
 - Supports **area, perimeter, and volume calculations**.
@@ -72,4 +68,3 @@ java Main
 
 ## 📎 Repository Link
 🔗 **GitHub Repository:** [Assignment_5](https://github.com/pulkit100804/Assignment_5)
-
