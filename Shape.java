@@ -1,9 +1,5 @@
 abstract class Shape {
-    String shapeName;
-
-    Shape(String shapeName) {
-        this.shapeName = shapeName;
-    }
+    String shapeName;  
 
     abstract double calculateArea();
     abstract double calculatePerimeter();
