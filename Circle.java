@@ -2,19 +2,19 @@ class Circle extends Shape {
     double radius;
 
     Circle(double radius) {
-        super("Circle");
+        this.shapeName = "Circle"; 
         this.radius = radius;
     }
 
     double calculateArea() {
-        return Math.PI * radius * radius;
+        return 3.14 * radius * radius;
     }
 
     double calculatePerimeter() {
-        return 2 * Math.PI * radius;
+        return 2 * 3.14 * radius;
     }
 
     double calculateVolume() {
-        return 0; // Circle has no volume
+        return 0; // No volume for 2D shapes
     }
 }
