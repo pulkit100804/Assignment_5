@@ -2,7 +2,7 @@ class Rectangle extends Shape {
     double length, width;
 
     Rectangle(double length, double width) {
-        super("Rectangle");
+        this.shapeName = "Rectangle"; 
         this.length = length;
         this.width = width;
     }
@@ -16,6 +16,6 @@ class Rectangle extends Shape {
     }
 
     double calculateVolume() {
-        return 0; // Rectangle has no volume
+        return 0; // No volume for 2D shapes
     }
 }
