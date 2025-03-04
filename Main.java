@@ -1,4 +1,7 @@
-import java.util.Scanner;
+/* Name Pulkit Shrivastava
+    * PRN 23070126098
+    * Batch B1 */
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
