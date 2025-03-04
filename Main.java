@@ -8,7 +8,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         
         while (true) {
-            System.out.println("\nSelect a shape:");
             System.out.println("1. Circle");
             System.out.println("2. Rectangle");
             System.out.println("3. Square");
@@ -20,7 +19,6 @@ public class Main {
             
             int choice = sc.nextInt();
             if (choice == 7) {
-                System.out.println("Exiting program...");
                 break;
             }
 
